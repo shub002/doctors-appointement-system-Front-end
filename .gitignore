@@ -1,0 +1,46 @@
+# Node.js-specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.pid.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build and Dependency Artifacts
+dist/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# React-specific
+/build/
+.cache/
+public/
+*.env.local
+
+# Testing
+coverage/
+
+# Miscellaneous
+*.lock
+*.tgz
+*.bak
